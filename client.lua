@@ -22,7 +22,7 @@ Citizen.CreateThread(function()
 			trasparent = 255,
 			customt = 'marker',
 			msg = 'RAPINA',
-			msg2 = 'https://cdn.discordapp.com/attachments/1202391432426700860/1224365419326869564/crystalpng.png?ex=661d3a27&is=660ac527&hm=5821fbc4d4e39a17d78bcb959952a0822d4076feea811894bc6c2b4e48100ba7&',
+			msg2 = '',
 			action = function()
 				local lockpick = exports.ox_inventory:Search('count', 'lockpick') 
 				if lockpick < 1 then
@@ -132,7 +132,7 @@ Citizen.CreateThread(function()
 			trasparent = 255,
 			customt = 'marker',
 			msg = 'RAPINA',
-			msg2 = 'https://cdn.discordapp.com/attachments/1202391432426700860/1224365419326869564/crystalpng.png?ex=661d3a27&is=660ac527&hm=5821fbc4d4e39a17d78bcb959952a0822d4076feea811894bc6c2b4e48100ba7&',
+			msg2 = '',
 			action = function()
 				local lockpick = exports.ox_inventory:Search('count', 'lockpick') 
 				if lockpick < 1 then
